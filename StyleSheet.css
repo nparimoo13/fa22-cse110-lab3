@@ -1,31 +1,95 @@
-h1 {
+h2 {
     text-align: center;
-    font-size: 1em;
-    color: #009;
+    font-size: 2em;
+    color: rgb(192, 93, 54);
     margin-bottom: .3em;
     text-decoration: underline;
+    font-family: Roboto;
   }
-  table {
-    margin: .3em;
-    width: 290px;
+  li li {
+    list-style-type: circle;
+  }
+  a[h1] {
+    color: purple;
+  }
+  h3 {
+    color: rgb(151, 180, 45);
+    font-family: Roboto;
+    width: 80px;
+    padding-top: cm;
+    margin-top: 50px;
+  }
+  h2{
+    background: fixed;
+    margin-bottom: 60px;
+    border-style:dashed;
+    grid:40%
+  }
+  .container
+  {
+    grid-column-start: 2;
+    grid-column-end: span col3-start;
+    grid-row-start: 2;
+    grid-row-end: span 5;
+  }
+  li:active
+  {
+    background-color: rgb(51, 255, 0)
+  }
+  p {
+    color: rgb(0, 255, 221);
+    text-decoration:dotted
+    
+  }
+  p,a{
+    background-size: auto;
+  }
+  div > span {
+    color: rgb(0, 140, 255);
+  }
+  * {
+    color: green;
+  }
+  fieldset {
+    flex-direction: row;
+    display: flex;
+  }
+  body > p { color: blue; }
+  @font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto);
+  }
+  p ~ ol {
+    color: rgb(212, 0, 255);
+  }
+  ul + h2
+  {
+    color:bisque
+  }
+  h1{
+    color: purple;
+    border-style: double;
+    border-radius: 95%;
+    border-width: 80%;
+    border-color:blueviolet;
+    min-width:30fr
+  }
+  li{
+    color: red;
+    background: black;
+    border:rgb(192, 93, 54)
+  }
+  summary{
+    color: blue;
+    text-decoration:solid
+  }
+  div{
+    background-color: rgb(13, 188, 211);
+    max-width: 50px;
+    height: 57px;
+    position: static;
+  }
+  button:hover {
+    color: green;
   }
   
-  th {
-    padding: .2em;
-  }
-  
-  td {
-    padding-left: .5em;
-    padding-right: .5em;
-    border: 1px solid #900;
-    background-color: #ffc;
-  }
-  
-  #trHeader {
-    text-decoration: underline;
-    color: #900;
-  }
-  
-  .centerCell {
-    text-align: center;
-  } 
